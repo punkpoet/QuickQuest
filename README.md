@@ -1,4 +1,4 @@
-# QuickQuest  QuickQuest/tree/main/frontend/quickquest
+ # frontend/quickquest
 e-learning platform
 
 # Frontend
