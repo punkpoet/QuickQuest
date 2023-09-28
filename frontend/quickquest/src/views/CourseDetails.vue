@@ -1,9 +1,12 @@
 <template>
-    <div class="course-details">
+    <div class="course-details" v-if="course">
       <h1>{{ course.title }}</h1>
       <p>{{ course.description }}</p>
       <CoursePlayer :lesson="course.lessons[0]" />
       <ReviewsSection :reviews="course.reviews" />
+    </div>
+    <div v-else>
+      Course details not found
     </div>
   </template>
   

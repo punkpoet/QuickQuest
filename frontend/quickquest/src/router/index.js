@@ -17,12 +17,25 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
+
+    
     {
       path: '/course/:id',
       name: 'courseDetails',
       component: () => import(/* webpackChunkName: "courseDetails" */ '../views/CourseDetails.vue')
     },
     // Add more routes as needed
+    {
+      path: '/Signin',
+      name: 'Signin',
+      component: () => import(/* webpackChunkName: "instructorDashboard" */ '../views/SignIn.vue')
+    },
+    {
+      path: '/SignUp',
+      name: 'SignUp',
+      component: () => import(/* webpackChunkName: "instructorDashboard" */ '../views/SignUp.vue')
+    },
+    
     {
       path: '/instructor-dashboard',
       name: 'instructorDashboard',
