@@ -2,11 +2,11 @@
 e-learning platform
 
 # Frontend
-vue 3  - [a link](https://github.com/punkpoet/QuickQuest/tree/main/frontend/quickquest)
+vue 3  - [Frontend](https://github.com/punkpoet/QuickQuest/tree/main/frontend/quickquest)
 # API 
-.NET CORE
+.NET CORE - [API](#)
 # Admin 
-.NET CORE MVC
+.NET CORE MVC - [Admin](#)
 # Database 
 MSSQL 
 
